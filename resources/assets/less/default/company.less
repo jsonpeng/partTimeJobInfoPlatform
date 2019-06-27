@@ -1,0 +1,120 @@
+.company_title{
+	position:relative;
+    border-bottom: @_2 solid #e5e5e5;
+    padding-top:@_55;
+    margin-bottom:@_70;
+	.about{
+		position: absolute;
+	    left: 50%;
+	    top: @_30;
+	    margin-top: 0;
+	    transform: translate(-50%,0);
+	    padding: 0 @_50;
+	    font-size: @_32;
+	    font-weight:bold;
+	    color:#333;
+	    background: #fff;
+	    text-align: center;
+	    div{
+	    	font-size: @_21;
+	    	font-weight:normal;
+	    }
+	}
+}
+.main{
+	padding:0 @_25;
+	h3{
+		font-size: @_26;
+		font-weight:bold;
+		color:#3d3d3d;
+		margin:0;
+		padding-top:@_25;
+		padding-bottom:@_20;
+		border-bottom:@_2 solid #e8e8e8;
+	}
+	.info{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-top:@_20;
+		.left{
+			padding-top: @_10;
+			.like{
+				margin-bottom: @_10;
+				.expand{
+					display: flex;
+					align-items: center;
+					.collect{
+						margin-right: @_30;
+						padding-left:@_40;
+						font-size: @_22;
+					}
+					.transpond{
+						padding-left:@_40;
+						font-size: @_22;
+						
+					}
+				}
+			}
+			.address{
+				padding-left:@_40;
+				font-size: @_22;
+				color:#70768b;
+			}
+		}
+		.right{
+			display: flex;
+			flex-direction: column;
+			align-items:center; 
+			border-left: @_1 solid #eee;
+			.contact_img{
+				padding:0 @_15;
+				img{
+					width:@_39;
+					height:@_39;
+				}
+			}
+		}
+	}
+	.content{
+		margin-top: @_35;
+		margin-bottom: @_60;
+		font-size: @_24;
+		color:#70768b;
+		line-height: @_38;
+		padding-bottom: @_160;
+		p{
+			margin-bottom: @_20;
+		}
+		.company_imgs{
+			display:flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-wrap: wrap;
+			padding:0 @_10;
+			div{
+			    width:@_270;
+				height:@_270;
+				margin-bottom: @_20;
+				overflow: hidden;
+				display: flex;
+				align-items: center;
+				img{
+					display: block;
+					width:100%;
+					height:auto;
+				}
+			}
+		}	
+	}
+}	
+.error_box{
+	overflow: hidden;
+	.error{
+		float: right;
+		padding-left: @_50;
+		color:#70768b;
+		font-size: @_28;
+	}
+}
+

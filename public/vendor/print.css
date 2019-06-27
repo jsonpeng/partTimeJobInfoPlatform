@@ -1,0 +1,14 @@
+#pf-src{
+	display: none;
+}
+
+#pf-body table{
+	width: 100% !important;
+}
+#pf-body #header-table{
+	width: 100% !important;
+}
+
+#pf-body td, #pf-body th{
+	padding: 0.2rem;
+}

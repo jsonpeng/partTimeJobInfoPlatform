@@ -1,0 +1,100 @@
+.generalize{
+	text-align: center;
+	color:#fff;
+	font-size:@_36;
+	padding:@_30 ;
+}
+.generalize-detail{
+	height: @_408;
+	padding:0 @_30;
+	font-size: @_26;
+}
+.user_erwei{
+	border-radius: @_20;
+	margin:@_60 @_30 @_180 @_30;
+	background-color: #fff;
+	.user_name{
+		padding:@_30 @_50;
+		margin:0 @_50;
+		
+		display:flex;
+		justify-content: center;
+		
+		position:relative;
+		h4{
+			display: flex;
+			justify-content: cneter;
+			align-items: center;
+			i{
+				display: inline-block;
+				width:@_60;
+				height:@_60;
+				border-radius: 50%;
+			}
+			span{
+				font-size: @_30;
+				margin-left: @_25;
+			}
+		}
+	}
+
+	.img_erweima{
+		text-align: center;
+		padding-top:@_38;
+		padding-bottom: @_50;
+		img{
+			width:@_262;
+			height:@_262;
+			border-radius: @_20;
+		}
+		.tuijian{
+			font-size:@_31;
+			color:#333;
+			margin-top: @_15;
+			text-align: center;
+		}
+		.sao{
+			font-size:@_24;
+			text-align: center;
+		}
+	}
+	
+}
+.erweima_nav{
+	display: flex;
+	justify-content: center;
+	li{
+		a{
+			color:#fff;
+			font-size:@_22;
+			padding:0 @_18;	
+			position:relative;
+		}
+	}
+	li a:after{
+		content: '';
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    width: 1px;
+	    bottom: 0;
+	    border-right: 1px solid #ccc;
+	    color: #fff;
+	    transform-origin: 0 50%;
+	    transform: scaleY(.8);
+	}
+	li:last-child a:after{
+		display: none;
+	}
+}
+.copyright{
+	padding-top: @_30;
+	padding-bottom: @_40;
+	font-size:@_22;
+	color:#fff;
+	text-align: center;
+	span{
+		padding-left:@_40;
+		background-size:16px 12px;
+	}
+}

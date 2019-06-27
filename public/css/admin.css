@@ -1,0 +1,90 @@
+.text-muted {
+  margin: 0;
+}
+.icheckbox_flat-green {
+  margin-right: 5px;
+}
+.sidebar-menu .treeview-menu > li > a {
+  padding: 10px 5px 10px 15px;
+  padding-left: 45px;
+}
+.redstar {
+  color: #b80000;
+}
+
+.tools {
+    margin: -7px -5px;
+}
+
+.tools a {
+    background: #E3E4E8;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #858582;
+    float: left;
+    margin-left: 3px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tools a:hover,.tools a.active {
+    background: #367fa9 !important;
+    color: #fff;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.pd10{
+  padding: 10px;
+}
+
+.pd15{
+  padding: 15px;
+}
+
+.content-header h1{
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.group select{
+  width: 100%;
+  padding:6px 40%;
+}
+
+.images{
+    border: 1px solid black;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.image-item{
+    margin-top: 15px;
+    display: inline-block;
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+    margin-right: 15px;
+    height: 100px;
+}
+
+.image-item > img{
+  width: 100%;
+}
+
+.required{
+  color: orange;
+}
+/*
+.form-group select{
+  width: 100%;
+  padding:6px 40%;
+}
+
+.col-lg-6  > select ,.col-lg-2 > select{
+  padding-left: 0% !important;
+  margin: 0 auto;
+}
+*/
